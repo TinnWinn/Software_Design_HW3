@@ -9,7 +9,6 @@ import org.apache.commons.cli.ParseException;
 
 public class Main implements Comparable  {
 	
-	
     protected boolean binSearch(Comparable[] List, Comparable key){
         int low = 0;
         int high = List.length - 1;
